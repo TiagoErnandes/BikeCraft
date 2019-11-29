@@ -45,6 +45,8 @@ img{
   display: block;
 }
 
+
+
 /* Header */
 .header{
   position: fixed;
@@ -76,6 +78,10 @@ img{
 .header_menu ul li a:hover{
   color: #fff;
 }
+.header_menu ul li a.menu_ativo{
+  color: #fff;
+}
+
 /* Introduction */
 .introducao{
   width: 100%;
@@ -120,6 +126,35 @@ img{
   letter-spacing: .1em;
   
 }
+
+/* introdução interna */
+.introducao-interna{
+  width: 100%;
+  height: 160px;
+  margin-top: 92px;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.introducao-interna h1{
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+ 
+}
+.introducao-interna h1:after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 6px auto 10px auto;
+}
+
+
+
 .btn:hover{
   color: #fff;
   border-color: #fff;
@@ -200,12 +235,12 @@ img{
 .portfolio .call p {
   color: #fff;
 }
-
-.qualidade{
+/* Qualidade */
+.qualidade {
   padding: 60px 0;
 }
 
-.qualidade::after{
+.qualidade:after {
   content: "";
   width: 634px;
   height: 83px;
@@ -215,33 +250,34 @@ img{
   top: 209px;
   right: 162px;
   z-index: -1;
-  
 }
 
-.qualidade img{
+
+.qualidade img {
   margin: 0 auto;
 }
-.qualidade_lista{
+
+.qualidade_lista {
   padding-top: 20px;
+  overflow: auto;
+  /* clear-fix */
 }
 
-.qualidade_lista li{
+.qualidade_lista li {
   text-align: center;
-  padding:0 40px;
+  padding: 0 40px;
 }
 
-.qualidade_lista li h3{
-  font-size: 18px;
-  text-align: center;
+.qualidade_lista li h3 {
   font-weight: bold;
+  font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
   letter-spacing: .1em;
   margin-top: 20px;
-  
 }
 
-.qualidade_lista li h3::after{
+.qualidade_lista li h3:after {
   content: "";
   display: block;
   width: 60px;
@@ -315,11 +351,8 @@ img{
 .copy{
   width: 100%;
   background: #fec63e;
-  padding: 20px 0;
-
-  
+  padding: 20px 0;  
 }
 .copy p{
   text-align: center;
-  
 }
