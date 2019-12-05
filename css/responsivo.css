@@ -50,12 +50,26 @@
 		margin:5px;
 		}
 
+		.header_menu ul li a:hover{
+
+			border-color: #fff;
+		}
+		.header_menu ul li a.menu_ativo{
+			border-color: #fff;
+		}
+
+
 		.introducao{
 			margin-top: 0;
 			padding-top: 20px;
 			background: url(../img/bg-mobile.jpg) no-repeat center;
 			background-size: cover;
 		}
+		.introducao-interna {
+			margin-top: 0;
+
+		}
+	
 
 		/* Call */
 		.call{
@@ -68,6 +82,20 @@
 		.introducao h1{
 			font-size: 36px;
 		}
+		/* Sobre */
+		.missao_sobre p{
+			font-size: 14px;
+			line-height: 20px;
+			padding-right: 25px;
+
+		}
+		.missao_sobre ul li{
+			font-size: 14px;
+			line-height: 25px;
+
+		}
+
+
 
 	
 }
